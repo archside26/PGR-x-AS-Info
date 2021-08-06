@@ -30,7 +30,7 @@ class MenuItemPGR3 extends StatelessWidget {
                 child: Row(
                   children: <Widget>[
                     AspectRatio(
-                      aspectRatio: 1 / 1,
+                      aspectRatio: 20 / 17,
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
                         child: Image.asset(
