@@ -2242,9 +2242,9 @@ List<constructPGRSupport> constructsupport = [
     descMemory: "This set is for Awakening and QTE Support too (Another set is 2 Guinea, 2 Lantern, 2 Gloria for Buff Support, change one of their set memory with 2 Samantha if want provide more elemental support)",
     surname: "Codename: BPN-08",
     pictElement: "assets/physical.png",
-    descElement: "(100 %)",
-    pictElement2: "assets/blank.png",
-    descElement2: "",
+    descElement: "(20 %)",
+    pictElement2: "assets/lightning.png",
+    descElement2: "(80 %)",
   ),
 
   constructPGRSupport(
