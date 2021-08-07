@@ -52,8 +52,8 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                     Positioned(
-                      bottom: 70,
-                      left: 20,
+                      bottom: 50,
+                      left: 80,
                       child: RichText(
                         // text: TextSpan(
                         //     text: "",
@@ -63,11 +63,13 @@ class HomePage extends StatelessWidget {
                         //         fontSize: 20),
                         //     children: [
                               text: TextSpan(
-                                  text: "",
+                                  text: "Construct PGR",
                                   style: TextStyle(
+                                      letterSpacing: 2,
                                       fontFamily: 'WorkSans',
+                                      fontStyle: FontStyle.italic,
                                       color: Colors.white,
-                                      fontWeight: FontWeight.w100,
+                                      fontWeight: FontWeight.w700,
                                       fontSize: 24))
                             ),
                       ),
