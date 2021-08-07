@@ -9,6 +9,8 @@ import 'package:flutter_pgr/pgrPage3.dart';
 import 'dart:io';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
+import 'design_course_app_theme.dart';
+
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -69,6 +71,27 @@ class HomePage extends StatelessWidget {
                                       fontSize: 24))
                             ),
                       ),
+                    Padding(
+                      padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+                      child: SizedBox(
+                        width: AppBar().preferredSize.height,
+                        height: AppBar().preferredSize.height,
+                        child: Material(
+                          color: Colors.transparent,
+                          child: InkWell(
+                            borderRadius:
+                            BorderRadius.circular(AppBar().preferredSize.height),
+                            child: Icon(
+                              Icons.arrow_back_ios,
+                              color: DesignCourseAppTheme.notWhite,
+                            ),
+                            onTap: () {
+                              Navigator.pop(context);
+                            },
+                          ),
+                        ),
+                      ),
+                    ),
                     //)
                   ],
                 ),
