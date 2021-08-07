@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter_pgr/pgrPage.dart';
 import 'package:flutter_pgr/pgrPage2.dart';
 //import 'package:coffee_shop/view/components/hotCoffeePage.dart';
@@ -79,8 +80,10 @@ class HomePage extends StatelessWidget {
                     decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.only(
-                            topLeft: Radius.circular(30),
-                            topRight: Radius.circular(30))),
+                            topLeft: Radius.circular(5),
+                            topRight: Radius.circular(5),
+                            bottomLeft: Radius.circular(5),
+                            bottomRight: Radius.circular(5))),
                     child: DefaultTabController(
                         length: 3,
                         child: Column(
