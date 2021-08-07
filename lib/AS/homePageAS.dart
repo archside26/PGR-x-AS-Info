@@ -5,6 +5,8 @@ import 'package:flutter_pgr/AS/aurorianPage4.dart';
 import 'package:flutter_pgr/AS/details_page.dart';
 import 'package:flutter/material.dart';
 
+import '../design_course_app_theme.dart';
+
 class MyHomePageAS extends StatefulWidget {
 
   @override
@@ -23,7 +25,28 @@ class _MyHomePageASState extends State<MyHomePageAS> {
         body: ListView(
           padding: EdgeInsets.only(left: 15.0),
           children: <Widget>[
-            SizedBox(height: 50.0),
+            SizedBox(height: 25),
+            Padding(
+              padding: EdgeInsets.only(right: 450),
+              child: SizedBox(
+                width: AppBar().preferredSize.height,
+                height: AppBar().preferredSize.height,
+                child: Material(
+                  color: Colors.transparent,
+                  child: InkWell(
+                    borderRadius:
+                    BorderRadius.circular(AppBar().preferredSize.height),
+                    child: Icon(
+                      Icons.arrow_back_ios,
+                      color: DesignCourseAppTheme.nearlyBlack,
+                    ),
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
+                  ),
+                ),
+              ),
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
