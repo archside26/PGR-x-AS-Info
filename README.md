@@ -1,7 +1,7 @@
 # PGR x AS Info
-
-![1](https://user-images.githubusercontent.com/67695500/128590842-ab2a044a-e3e0-421f-84db-829e1cf8ef27.png)
-![2](https://user-images.githubusercontent.com/67695500/128590844-473b0cd3-17fa-451f-a00f-a7a97bfa19e3.png)
-![3](https://user-images.githubusercontent.com/67695500/128590848-2cff8b09-8a63-429f-9c74-c714645c0bef.png)
-![4](https://user-images.githubusercontent.com/67695500/128590850-94095016-89d8-4e4c-a49f-d88ff88c1cbc.gif)
+<!-- 
+<img align="left" width="500" height="900" src="https://user-images.githubusercontent.com/67695500/128590972-cc6c2148-1f4d-4941-9c6d-33ccb24c7170.png">
+<img align="left" width="500" height="900" src="https://user-images.githubusercontent.com/67695500/128590981-fe068dfa-f69e-4165-b02c-7b093544f579.png">
+<img align="left" width="500" height="900" src="https://user-images.githubusercontent.com/67695500/128590982-bab9ed87-0b60-43f1-b72e-43f306de27e5.png"> -->
+<img align="left" width="500" height="900" src="https://user-images.githubusercontent.com/67695500/128590984-df5ca0a5-d0a6-4d3e-9949-8f27af7a9e35.gif">
 
