@@ -25,7 +25,7 @@ class _MyHomePageASState extends State<MyHomePageAS> {
         body: ListView(
           padding: EdgeInsets.only(left: 15.0),
           children: <Widget>[
-            SizedBox(height: 25),
+            SizedBox(height: 40),
             Padding(
               padding: EdgeInsets.only(right: 450),
               child: SizedBox(
