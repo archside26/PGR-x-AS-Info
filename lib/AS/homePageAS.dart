@@ -26,27 +26,6 @@ class _MyHomePageASState extends State<MyHomePageAS> {
           padding: EdgeInsets.only(left: 15.0),
           children: <Widget>[
             SizedBox(height: 40),
-            Padding(
-              padding: EdgeInsets.only(right: 450),
-              child: SizedBox(
-                width: AppBar().preferredSize.height,
-                height: AppBar().preferredSize.height,
-                child: Material(
-                  color: Colors.transparent,
-                  child: InkWell(
-                    borderRadius:
-                    BorderRadius.circular(AppBar().preferredSize.height),
-                    child: Icon(
-                      Icons.arrow_back_ios,
-                      color: DesignCourseAppTheme.nearlyBlack,
-                    ),
-                    onTap: () {
-                      Navigator.pop(context);
-                    },
-                  ),
-                ),
-              ),
-            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
