@@ -2085,6 +2085,76 @@ List<Apple> menu = [
       // descbreakthroughnumber6: " - "),
 
   Apple(
+      name: "Taki",
+      faction: "Umbraton",
+      rate: "★★★★★",
+//type: 'Hot',
+      shortDesc: "Can generate high firepower in the T-shaped range\n",
+      desc:
+      "The proprietor of Odd Jobs who traveled from the Far East to settle in Umbraton. An ally of Istvan, he's a reclusive contrarian who does things with efficiency.",
+      // "\n\nCharon Strong Points"
+      // "\n\n✔ Active technique that attacks a wide area and has excellent additional effects"
+      // "\n\n✔ Awakening R3 enables diagonal attacks",
+      nickname:
+      "Dragonic Blade",
+      gender:
+      "Male",
+      height:
+      "187 cm",
+      birthday:
+      "August 2",
+      birthplace:
+      "Far East",
+      affiliation:
+      "Umbraton",
+      combattype:
+      "Serrated Blade, Dragonic Flame",
+      info:
+      "\n",
+      image: "assets/icontaki.png",
+      images: "assets/taki.png",
+      element: "assets/fire.png",
+      imagejob: "assets/detonator.jpg",
+      job: "Detonator",
+      secondelement: "assets/forest.png",
+      imgactiveskill: "assets/takiactiveicon.jpg",
+      activeskill: "Dragonscorch",
+      descactiveskillA0: "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile). At the same time, converts the selected tile into a Red enhanced tile.",
+      descactiveskillA1: "-- Same --",
+      descactiveskillA2: "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile). At the same time, converts the selected tile into a Red enhanced tile. Applies Burn Marks to targets before dealing damage.",
+      descactiveskillA3: "-- Same --",
+      skillcd: "3 Turn (Pre-emptive)",
+      imgchainskill: "assets/takichainicon.jpg",
+      chainskill: "Fatal Flame",
+      chainskillnumber1: "5",
+      chainskillnumber2: "9",
+      chainskillnumber3: "13",
+      descchainskillnumber1: "Deals 130% damage to 1 row.",
+      descchainskillnumber2: "Deals 130% damage to 3 rows.",
+      descchainskillnumber3: "Deals 145% damage to 3 rows.",
+      imgeqskill: "assets/takiequipicon.jpg",
+      eqskill: "Burn Mark",
+      desceqskillnumber1: "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+      desceqskillnumber2: "Fire Element Counter Damage +4.0%, ATK+30, DEF+10, HP+50.",
+      desceqskillnumber3: "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+      desceqskillnumber4: "Fire Element Counter Damage +4.0%, ATK+30, DEF+10, HP+100.",
+      desceqskillnumber5: "-- Same --",
+      desceqskillnumber6: "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+      desceqskillnumber7: "Fire Element Counter Damage +5.0%, ATK+50, DEF+15, HP+150.",
+      desceqskillnumber8: "-- Same --",
+      desceqskillnumber9: "-- Same --",
+      desceqskillnumber10: "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+      imgeqweapon: "assets/takiequip.png",
+      eqweapon: "Serrated Blade: Ender of All",
+      quotes: "Defeated? It's part of everyday life.",
+      descbreakthroughnumber1: "HP increased by 250.",
+      descbreakthroughnumber2: "Active Skill Enhancement: The selected tiles are converted to Red Enhanced Tiles.",
+      descbreakthroughnumber3: "Increased by 250+5% Basic max HP.",
+      descbreakthroughnumber4: "Increased by 30+5% Basic DEF.",
+      descbreakthroughnumber5: "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat."),
+  // descbreakthroughnumber6: " - "),
+
+  Apple(
       name: "Mia",
       faction: "Independent",
       rate: "★★★★★",

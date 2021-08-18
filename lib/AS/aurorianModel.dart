@@ -454,7 +454,7 @@ List<Coffee> menu = [
       secondelement: "assets/fire.png",
       imgactiveskill: "assets/migardactiveicon.png",
       activeskill: "Soul Spines",
-        descactiveskillA0: "Teleports to any location within 3 surrounding clusters and deals 250% damage to enemies within 1 surrounding cluster. Damage is doubled when there is only 1 enemy in the area of attack.",
+      descactiveskillA0: "Teleports to any location within 3 surrounding clusters and deals 250% damage to enemies within 1 surrounding cluster. Damage is doubled when there is only 1 enemy in the area of attack.",
       descactiveskillA1: "-- Same --",
       descactiveskillA2: "Teleports to any location within 3 surrounding clusters and deals 250% damage to enemies within 1 surrounding cluster. Damage is doubled when there is only 1 enemy in the area of attack. Final damage increases by 15% for each enemy killed. Stacks up to 10 times",
       descactiveskillA3: "-- Same --",
@@ -491,6 +491,79 @@ List<Coffee> menu = [
       descbreakthroughnumber4: "Increased by 300+5% Basic max HP.",
       descbreakthroughnumber5: "Increased by 40+5% Basic DEF.",
       descbreakthroughnumber6: "Active Skill Enhancement: Removes Active Skill cooldown if the target is killed with the skill (can only be triggered once in each round)."),
+
+  Coffee(
+      name: "Hiiro",
+      faction: "Illumina",
+      rate: "★★★★★★",
+//type: 'Hot',
+      shortDesc: "Active technique of range attack that also has a color changing effect",
+      desc:
+      "A girl with unrivaled fighting skills. As a Legion Commander of the Illumina Federation, she's known to be strict, serious, and determined. Facing each battle with calculated confidence, she's scored many victories with her katana in hand.",
+      // "\n\nCharon Strong Points"
+      // "\n\n✔ Active technique that attacks a wide area and has excellent additional effects"
+      // "\n\n✔ Awakening R3 enables diagonal attacks",
+      nickname:
+      "Sakura Setsuna",
+      gender:
+      "Female",
+      height:
+      "167 cm",
+      birthday:
+      "April 1",
+      birthplace:
+      "Far East",
+      affiliation:
+      "Illumina Federation",
+      combattype:
+      "Katana: Sakae, Scabbard: Crimson Shade",
+      info:
+      "\n",
+      image: "assets/iconhiiro.png",
+      images: "assets/hiiro.png",
+      element: "assets/forest.png",
+      imagejob: "assets/detonator.jpg",
+      job: "Detonator",
+      secondelement: "assets/thunder.png",
+      imgactiveskill: "assets/hiiroactiveicon.jpg",
+      activeskill: "Crimson Sakura",
+      descactiveskillA0: "Converts any 2 chosen tiles to enhanced Green tiles and deals 200% damage to enemies in cross shape to the maximum range.",
+      descactiveskillA1: "-- Same --",
+      descactiveskillA2: "-- Same --",
+      descactiveskillA3: "-- Same --",
+      // eqskillA1: "After casting a Chain Combo or an Active Skill, if the target's HP is lower than 20%, unleashes 1 more attack dealing 60% ATK damage.",
+      // eqskillA2: "After casting a Chain Combo or an Active Skill, if the target's HP is lower than 20%, unleashes 1 more attack dealing 60% ATK damage.",
+      // eqskillA3: "After activating a Chain Combo or an Active Skill, if the target's HP is lower than 20%, launches 1 more attack dealing 60% ATK damage. If the target has less HP than Migard's ATK after this bonus attack, kill it.",
+      skillcd: "3 Turn",
+      imgchainskill: "assets/hiirochainicon.jpg",
+      chainskill: "Afterglow",
+      chainskillnumber1: "2",
+      chainskillnumber2: "8",
+      chainskillnumber3: "12",
+      descchainskillnumber1: "Deals 160% damage to 1 surrounding cluster.",
+      descchainskillnumber2: "Deals 165% damage to 12 tiles in a diamond shape.",
+      descchainskillnumber3: "Deals 170% damage to 2 surrounding clusters.",
+      imgeqskill: "assets/hiiroequipicon.jpg",
+      eqskill: "One with the Duel",
+      desceqskillnumber1: "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+      desceqskillnumber2: "Forest Element Counter Damage +4.0%, ATK+30, DEF+10, HP+50.",
+      desceqskillnumber3: "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+      desceqskillnumber4: "Forest Element Counter Damage +4.0%, ATK+30, DEF+10, HP+100.",
+      desceqskillnumber5: "-- Same --",
+      desceqskillnumber6: "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+      desceqskillnumber7: "Forest Element Counter Damage +5.0%, ATK+50, DEF+15, HP+150.",
+      desceqskillnumber8: "-- Same --",
+      desceqskillnumber9: "-- Same --",
+      desceqskillnumber10: "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+      imgeqweapon: "assets/hiiroequip.png",
+      eqweapon: "Katana: Sakae",
+      quotes: "Let's change our destiny together",
+      descbreakthroughnumber1: "HP increased by 300.",
+      descbreakthroughnumber2: "DEF increased by 40.",
+      descbreakthroughnumber3: "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+      descbreakthroughnumber4: "Increased by 300+5% Basic max HP.",
+      descbreakthroughnumber5: "Increased by 40+5% Basic DEF.",
+      descbreakthroughnumber6: "Active Skill Enhancement: Increases Active Skill damage by 40%."),
 
   Coffee(
       name: "Uriel",
