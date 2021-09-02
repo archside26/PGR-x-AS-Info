@@ -1424,6 +1424,76 @@ List<Coffee> menu = [
       descbreakthroughnumber6: "Active Skill Enhancement: Deals damage to the 3 nearest enemies."),
 
   Coffee(
+      name: "Beryl",
+      faction: "True Order",
+      rate: "★★★★★★",
+//type: 'Hot',
+      shortDesc: "A hero with unique equipment effect which can set a trap for enemy",
+      desc:
+      "A member of the True Order with control of the powerful skill 'Crystal Domain'. Using this power significantly alters her mental state, rendering her distant and silent.",
+      // "\n\nCharon Strong Points"
+      // "\n\n✔ Active technique that attacks a wide area and has excellent additional effects"
+      // "\n\n✔ Awakening R3 enables diagonal attacks",
+      nickname:
+      "Crystal Bloodline",
+      gender:
+      "Female",
+      height:
+      "162 cm",
+      birthday:
+      "September 13",
+      birthplace:
+      "Lumopolis",
+      affiliation:
+      "True Order",
+      combattype:
+      "Crystal Domain",
+      info:
+      "\n",
+      image: "assets/iconberyl.png",
+      images: "assets/beryl.png",
+      element: "assets/forest.png",
+      imagejob: "assets/detonator.jpg",
+      job: "Detonator",
+      secondelement: "assets/fire.png",
+      imgactiveskill: "assets/berylactiveicon.png",
+      activeskill: "Crystal Domain",
+      descactiveskillA0: "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x.",
+      descactiveskillA1: "-- Same --",
+      descactiveskillA2: "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x. Marks the current position after this skill is cast. If the Equipment Skill triggered this round generates crystals, the Equipment Skill is also triggered 1 time at the marked location.",
+      descactiveskillA3: "-- Same --",
+      skillcd: "3 Turn",
+      imgchainskill: "assets/berylchainicon.png",
+      chainskill: "Hidden Bloom",
+      chainskillnumber1: "3",
+      chainskillnumber2: "9",
+      chainskillnumber3: "13",
+      descchainskillnumber1: "Deals 145% damage to 1 surrounding cluster.",
+      descchainskillnumber2: "Deals 160% damage to 12 tiles in a diamond shape.",
+      descchainskillnumber3: "Deals 165% damage to 16 tiles in a radial shape.",
+      imgeqskill: "assets/berylequipicon.png",
+      eqskill: "Crystal Touch",
+      desceqskillnumber1: "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
+      desceqskillnumber2: "Forest Element Counter Damage +4.0%, ATK+30, DEF+10, HP+50.",
+      desceqskillnumber3: "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+      desceqskillnumber4: "Forest Element Counter Damage +4.0%, ATK+30, DEF+10, HP+100.",
+      desceqskillnumber5: "-- Same --",
+      desceqskillnumber6: "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+      desceqskillnumber7: "Forest Element Counter Damage +5.0%, ATK+50, DEF+15, HP+150.",
+      desceqskillnumber8: "-- Same --",
+      desceqskillnumber9: "-- Same --",
+      desceqskillnumber10: "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF).",
+      imgeqweapon: "assets/berylequip.png",
+      eqweapon: "Crystallus Camellias",
+      quotes: "Camellias are even more beautiful.",
+      descbreakthroughnumber1: "HP increased by 300.",
+      descbreakthroughnumber2: "DEF increased by 40.",
+      descbreakthroughnumber3: "Active Skill Enhancement: Increases Active Skill damage by 50%.",
+      descbreakthroughnumber4: "Increased by 300+5% Basic max HP.",
+      descbreakthroughnumber5: "Increased by 40+5% Basic DEF.",
+      descbreakthroughnumber6: "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat."),
+
+  Coffee(
       name: "Sariel",
       faction: "Umbraton",
       rate: "★★★★★★",

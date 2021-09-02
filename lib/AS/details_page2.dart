@@ -668,7 +668,7 @@ class _DetailsPageState extends State<DetailsPage> {
                       ]))),
               Positioned(
                   top: MediaQuery.of(context).size.height /10,
-                  left: 75.0,
+                  right: MediaQuery.of(context).padding.right/10,
                   child: Container(
                       height: 300.0,
                       width: 300.0,
